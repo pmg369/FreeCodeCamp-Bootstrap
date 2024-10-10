@@ -384,7 +384,20 @@ footer {
     }
 }
 
-@media screen and (max-width: 800px) {
+/* antigua forma */
+/* @media screen and (max-width: 800px) {
+    .testimonio-imagen {
+        height: 120px;
+        width: 120px;
+    }
+
+    .testimonio-texto {
+        font-size: 18px;
+    }
+} */
+
+/* nueva forma */
+@media (width <= 800px) {
     .testimonio-imagen {
         height: 120px;
         width: 120px;
